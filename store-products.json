@@ -1,0 +1,47 @@
+[
+  {
+    "name": "1800",
+    "description": "Installed in parks and backyards across the globe, Rain Bird's 1800 Series is the #1 commercial-grade irrigation spray head brand in the world.",
+    "precip": "varies by nozzle",
+    "price": 7.06,
+    "flow": "0.1 gpm",
+    "pressure": "15 to 70 psi",
+    "radius": "3 to 20 feet",
+    "images": [
+      "images/1800-01.jpg",
+      "images/1800-02.jpg",
+      "images/1800-03.jpg"
+    ],
+    "reviews": []
+  },
+  {
+    "name": "3500",
+    "description": "The 3500 Series Rotor is an easy to use short to mid-range 1/2 inch gear-drive rotor, offering value and convenience for residential applications. Utilizing a simple flat-bladed screwdriver, the 3500's arc adjustment is quick and easy.",
+    "precip": "0.37-0.72 inches per hour",
+    "price": 15.08,
+    "flow": "0.73 to 9.63 gpm",
+    "pressure": "25-55 psi ",
+    "radius": "15 to 35 feet",
+    "images": [
+      "images/3500-01.jpg",
+      "images/3500-02.jpg",
+      "images/3500-03.jpg"
+    ],
+    "reviews": []
+  },
+  {
+    "name": "5000",
+    "description": "Relax with the knowledge your landscape is being watered by reliable 5000 Series Rotors and industry-leading Rain Curtain Nozzle Technology. Rain Bird® 5000 Series Rotors are ideal for medium to large-size lawns and evenly distribute water from 25 to 50 feet.",
+    "precip": "0.20 to 1.01 inches per hour",
+    "price": 11.48,
+    "flow": "0.73 to 9.63 gpm",
+    "pressure": "25-65 psi",
+    "radius": "25 to 50 feet",
+    "images": [
+      "images/5000-01.jpg",
+      "images/5000-02.jpg",
+      "images/5000-03.jpg"
+    ],
+    "reviews": []
+  }
+]
