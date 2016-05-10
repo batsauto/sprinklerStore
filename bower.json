@@ -1,7 +1,7 @@
 {
   "name": "sprinkler-store",
   "description": "a test app with Christian",
-  "main": "app.js",
+  "main": "sprinklerStore.module.js",
   "authors": [
     "Craig Trudo <craig.trudo@walmart.com>"
   ],
@@ -17,6 +17,7 @@
   ],
   "dependencies": {
     "bootstrap": "^3.3.6",
-    "angular": "^1.5.5"
+    "angular": "^1.5.5",
+    "angular-ui-router": "^0.2.18"
   }
 }

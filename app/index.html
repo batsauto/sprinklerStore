@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sprinkler Store</title>
+    <link rel="stylesheet" type="text/css" href="styles/application.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" type="text/css">
+</head>
+
+
+<body ng-app="sprinklerStore">
+
+<div class="container" ng-controller="sprinklerStoreController as ssCtrl">
+    <list-view></list-view>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!--Dependencies-->
+<script type="text/javascript" src="bower_components/angular/angular.js"></script>
+<!--<script type="text/javascript" src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>-->
+
+<!--App Files-->
+<script type="text/javascript" src="sprinklerStore.module.js"></script>
+<script type="text/javascript" src="sprinklerStore.config.js"></script>
+<script type="text/javascript" src="sprinklerStore.controller.js"></script>
+<script type="text/javascript" src="components/listViewComponent/listView.js"></script>
+</body>
+</html>
