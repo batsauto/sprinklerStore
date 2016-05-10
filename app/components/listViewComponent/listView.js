@@ -13,10 +13,10 @@
         .module('sprinklerStore')
         .directive('listView', ListView);
 
-    ListView.$inject = [];
+    ListView.$inject = ['Product'];
 
     /* @ngInject */
-    function ListView()
+    function ListView(Product)
     {
         var directive = {
             templateUrl: 'components/listViewComponent/listView.tpl.html',
@@ -32,6 +32,15 @@
 
             vm.greeting = "Hello!";
 
+            activate();
+
+            function activate(){
+                Product.getProducts().then(handleProducts);
+
+                function handleProducts(response){
+                    vm.products = response.data;
+                }
+            }
         }
     }
 })();

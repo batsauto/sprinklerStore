@@ -8,9 +8,9 @@
     "pressure": "15 to 70 psi",
     "radius": "3 to 20 feet",
     "images": [
-      "images/1800-01.jpg",
-      "images/1800-02.jpg",
-      "images/1800-03.jpg"
+      {"src": "images/1800-01.jpg"},
+      {"src": "images/1800-02.jpg"},
+      {"src": "images/1800-03.jpg"}
     ],
     "reviews": []
   },
@@ -23,9 +23,9 @@
     "pressure": "25-55 psi ",
     "radius": "15 to 35 feet",
     "images": [
-      "images/3500-01.jpg",
-      "images/3500-02.jpg",
-      "images/3500-03.jpg"
+      {"src": "images/3500-01.jpg"},
+      {"src": "images/3500-02.jpg"},
+      {"src": "images/3500-03.jpg"}
     ],
     "reviews": []
   },
@@ -38,9 +38,9 @@
     "pressure": "25-65 psi",
     "radius": "25 to 50 feet",
     "images": [
-      "images/5000-01.jpg",
-      "images/5000-02.jpg",
-      "images/5000-03.jpg"
+      {"src": "images/5000-01.jpg"},
+      {"src": "images/5000-02.jpg"},
+      {"src": "images/5000-03.jpg"}
     ],
     "reviews": []
   }
