@@ -15,7 +15,7 @@
     function NavBar()
     {
         var directive = {
-            templateUrl: 'components/navagationBar/navBar.tpl.html',
+            templateUrl: 'components/navigationBar/navBar.tpl.html',
             restrict: 'E',
             controller: [NavController],
             controllerAs: 'NavCtrl',

@@ -11,15 +11,10 @@
 
 <body ng-app="sprinklerStore">
 
-<!--todo Refactor this into a navigation component!-->
 <ss-nav-bar></ss-nav-bar>
-<!--todo end of nav -->
 
-<div class="container" ng-controller="sprinklerStoreController as ssCtrl">
-    <!--todo: use ui-router to enable multiple views-->
-    <!--<list-view></list-view> -->
+<div class="container">
     <div ui-view></div>
-
 </div>
 
 
@@ -35,7 +30,7 @@
 <script type="text/javascript" src="sprinklerStore.config.js"></script>
 <script type="text/javascript" src="sprinklerStore.controller.js"></script>
 <script type="text/javascript" src="services/product.service.js"></script>
-<script type="text/javascript" src="components/navagationBar/navBar.js"></script>
-<script type="text/javascript" src="components/listViewComponent/listView.js"></script>
+<script type="text/javascript" src="components/navigationBar/navBar.js"></script>
+<script type="text/javascript" src="components/itemCardComponent/itemCard.js"></script>
 </body>
 </html>

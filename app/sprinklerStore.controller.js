@@ -10,10 +10,10 @@
         .module('sprinklerStore')
         .controller('sprinklerStoreController', sprinklerStore);
 
-    sprinklerStore.$inject = [];
+    sprinklerStore.$inject = ['Product'];
 
     /* @ngInject */
-    function sprinklerStore() {
+    function sprinklerStore(Product) {
         /* jshint validthis: true */
         var vm = this;
 
@@ -22,10 +22,12 @@
 
         activate();
 
-        ////////////////
+        function activate(){
+            Product.getProducts().then(handleProducts);
 
-        function activate() {
-            vm.test = "Hello Stupid";
+            function handleProducts(response){
+                vm.products = response.data;
+            }
         }
     }
 })();

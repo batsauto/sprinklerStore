@@ -1,7 +1,6 @@
 /**
- * Created by christianbarrow on 5/11/16.
+ * Created by ctrudo on 5/9/16.
  */
-
 /********************************************************
  * template follows john papa's style guide
  * for more information, please see the following URL
@@ -12,35 +11,31 @@
 
     angular
         .module('sprinklerStore')
-        .directive('itemView', itemView);
+        .directive('itemCard', ItemCard);
 
-    itemView.$inject = ['Product'];
+    ItemCard.$inject = [];
 
     /* @ngInject */
-    function itemView(Product)
+    function ItemCard()
     {
         var directive = {
-            templateUrl: 'components/listItemComponent/listItem.tpl.html',
+            templateUrl: 'components/itemCardComponent/itemCard.tpl.html',
             restrict: 'E',
-            controller: [ItemController],
-            controllerAs: 'itemCtrl',
-            bindToController: true
+            controller: [ItemCardController],
+            controllerAs: 'ItemCardCtrl',
+            bindToController: {
+                product: "="
+            }
         };
         return directive;
 
-        function ItemController(){
+        function ItemCardController(){
             var vm = this;
-
-            vm.greeting = "Hello!";
 
             activate();
 
             function activate(){
-                Product.getProducts().then(handleProducts);
 
-                function handleProducts(response){
-                    vm.products = response.data;
-                }
             }
         }
     }

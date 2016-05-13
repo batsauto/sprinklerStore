@@ -1,0 +1,9 @@
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">{{ItemCardCtrl.product.name}}</h3>
+    </div>
+    <div class="panel-body">
+        {{ItemCardCtrl.product.description}}
+        <img  ng-repeat="image in ItemCardCtrl.product.images" width="140" height="140" class="img-responsive img-rounded" ng-src="{{image.src}}" alt="picture">
+    </div>
+</div>
